@@ -26,8 +26,6 @@
 This project follows **Composition over Inheritance** for **Products and Memberships**, ensuring **scalability, flexibility, and maintainability** while adhering to **SOLID principles**.
 Composition-Based Design is the best way to structure the database and application for scalability when handling a growing number of products.
 
-## ---
-
 #### **Why Composition Instead of Inheritance?**  
 
 ### **More Flexibility**  
@@ -42,8 +40,6 @@ Composition-Based Design is the best way to structure the database and applicati
 - **SRP:** Each class has a single responsibility.  
 - **OCP:** Easily extendable without modifying existing code.  
 - **LSP:** No risk of breaking existing functionality.  
-
-## ---
 
 ### **Composition-Based Product Model**  
 All generic properties in products table and product specific details can go in ProductAttributes table (covered in 'Scaling with Product Attributes' section)
